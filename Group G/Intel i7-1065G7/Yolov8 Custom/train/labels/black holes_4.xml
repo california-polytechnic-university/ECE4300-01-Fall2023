@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>black holes_4.jpeg</filename>
+	<path>C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\images\black holes_4.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6000</width>
+		<height>3375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>black hole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1573</xmin>
+			<ymin>650</ymin>
+			<xmax>4484</xmax>
+			<ymax>2556</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,6 @@
+train: C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\train
+val: C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\val
+
+nc: 2
+
+names: ["black hole", "planet"]
