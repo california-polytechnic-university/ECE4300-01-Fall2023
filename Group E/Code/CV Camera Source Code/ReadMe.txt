@@ -15,7 +15,8 @@ It also allows you to use either your CPU or GPU after model selection.
 
 Take care and thank you.
 
-P.S. The Visual Studio project is in a ZIP file for you to extract. 
+P.S. Because the models are too massive to be stored via GitHub, you must download them off the Ultralytics GitHub repository.
+https://github.com/ultralytics/ultralytics
 
 Best regards,
 -Michael A. Tolmajian
