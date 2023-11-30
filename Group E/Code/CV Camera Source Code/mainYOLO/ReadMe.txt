@@ -7,3 +7,5 @@ yolov8s.pt
 yolov8m.pt
 yolov8l.pt
 yolov8x.pt
+
+These models were stored in the mainYOLO project folder, in the subdirectory 'modelsYOLOv8'.
