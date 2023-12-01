@@ -1,9 +1,3 @@
-# Ultralytics YOLO 🚀, GPL-3.0 license
-
-__version__ = "8.0.3"
-
-from ultralytics.hub import checks
-from ultralytics.yolo.engine.model import YOLO
-from ultralytics.yolo.utils import ops
-
-__all__ = ["__version__", "YOLO", "hub", "checks"]  # allow simpler import
+version https://git-lfs.github.com/spec/v1
+oid sha256:411c40789e1b72c69ece2d5756f7c473e5a75d64c69f21e496363f32c43ade6f
+size 262

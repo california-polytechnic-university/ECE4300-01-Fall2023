@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>black holes_5.jpeg</filename>
-	<path>C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\images\black holes_5.jpeg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>4320</width>
-		<height>4320</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>black hole</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1283</xmin>
-			<ymin>1164</ymin>
-			<xmax>3001</xmax>
-			<ymax>2769</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:74b3b1d5d4b97a2296ed66f3600681ade334233c6f83b4a61913e44db07b3ab3
+size 591

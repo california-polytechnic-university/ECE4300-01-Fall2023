@@ -1,14 +1,3 @@
-`timescale 1ns / 1ps
-module mod_tb;
-    parameter WIDTH = 64;
-    reg [WIDTH-1:0] a,n;
-    wire [WIDTH-1:0] r,q;
-    mod m1(a,n,r,q);
-    defparam m1.WIDTH = WIDTH;
-    
-    initial begin
-        a = 12345;
-        n = 23;
-    end
-        
-endmodule
+version https://git-lfs.github.com/spec/v1
+oid sha256:56792750cb11ae171aa0205784d2b0d6988f9f19a82ccc613769c7faa8bee56b
+size 250

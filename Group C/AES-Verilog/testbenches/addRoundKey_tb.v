@@ -1,16 +1,3 @@
-module addRoundKey_tb;
-
-reg [127:0] in;
-reg [127:0] key;
-wire [127:0] out;	
-
-
-addRoundKey m (in, out, key);
-
-
-initial begin
-	$monitor("input= %H, output= %h, key = %h", in, out, key);
-	in = 128'h_046681e5_e0cb199a_48f8d37a_2806264c;
-	key = 128'h_a0fafe17_88542cb1_23a33939_2a6c7605;
-end
-endmodule
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe55fb4d63a42b21368e8ca1bb2e1989956f2170da06ac71f7d4841ba8bbc6a6
+size 296

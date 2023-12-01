@@ -1,6 +1,3 @@
-train: C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\train
-val: C:\Users\arman\OneDrive\Documents\Fall 2023\4300\Yolov8 Custom\val
-
-nc: 2
-
-names: ["black hole", "planet"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:58416e7a7a69fd64dc2a855149b56f0e0f0248612697c1807f428326ec45b82f
+size 187

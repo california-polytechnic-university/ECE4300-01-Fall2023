@@ -1,15 +1,3 @@
-module encryptRound(in,key,out);
-input [127:0] in;
-output [127:0] out;
-input [127:0] key;
-wire [127:0] afterSubBytes;
-wire [127:0] afterShiftRows;
-wire [127:0] afterMixColumns;
-wire [127:0] afterAddroundKey;
-
-subBytes s(in,afterSubBytes);
-shiftRows r(afterSubBytes,afterShiftRows);
-mixColumns m(afterShiftRows,afterMixColumns);
-addRoundKey b(afterMixColumns,out,key);
-		
-endmodule
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf402d940f41ac5b855852ee7a27096315b76a8899c8898bcfa924fb429a0917
+size 380
