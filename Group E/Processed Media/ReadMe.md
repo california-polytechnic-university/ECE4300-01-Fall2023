@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:021801778c8bf4dfc457eb025146d291c812fd89649bd7c93d5b92937ecabf63
-size 266
+The link below takes you to all the object-detected images and videos using YOLOv5, v7, and v8 and the Intel Core i7 processor. It was too big to be stored on GitHub's repository.
+
+https://drive.google.com/drive/folders/1mWO6txee30q06Cg7eTsDFHiilG71SNUT?usp=sharing
