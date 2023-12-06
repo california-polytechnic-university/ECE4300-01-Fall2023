@@ -1,6 +1,14 @@
 This is the code for the mainYOLO project. This Visual Studio project activates the webcam and object detection using YOLOv8's selection of models.
 
-Nano - yolov8n.pt Small - yolov8s.pt Medium - yolov8m.pt Large - yolov8l.pt XLarge - yolov8x.pt
+Nano - yolov8n.pt 
+
+Small - yolov8s.pt 
+
+Medium - yolov8m.pt 
+
+Large - yolov8l.pt 
+
+XLarge - yolov8x.pt
 
 The project also allows the user to use either the CPU or GPU.
 
