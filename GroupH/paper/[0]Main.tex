@@ -1,0 +1,209 @@
+\documentclass[12pt,journal]{IEEEtran}
+
+\ifCLASSINFOpdf
+\else
+\fi
+
+%\usepackage{cite}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage[backend=biber, style=ieee]{biblatex}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{lipsum} 
+\usepackage{booktabs}
+
+\usepackage{pgfplotstable}
+\addbibresource{Documentation/Bib.bib}
+%\usepackage[hyphens]{url}
+%\setcounter{secnumdepth}{3}
+%\pgfplotsset{compat = newest}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+ \usepackage{color}   %May be necessary if you want to color links
+ \usepackage{hyperref}
+ \hypersetup{
+     colorlinks=true, %set true if you want colored links
+     linktoc=all,     %set to all if you want both sections and subsections linked
+     linkcolor=black,  %choose some color if you want links to stand out
+ }
+
+\renewcommand{\thesubsection}{\Roman{subsection}}%CHANGES THE NUMBERING OF SUBSECTIONS 
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}%CHANGES THE NUMBERING OF SUBSUBSECTIONS
+\usepackage{caption}
+
+
+%START OF TITLE PAGE
+
+\begin{document}
+\begin{titlepage}
+
+\begin{center}
+
+%TITLE OF PAPER
+{\bfseries\fontsize{16}{16}\selectfont{Evaluating the Performance of Hardware Using Computer Vision}}\\
+\vspace*{0.6cm}
+\vspace*{1.1cm}
+
+%IMAGES 
+
+%\includegraphics[width=5.7cm]{}\hfil
+\includegraphics[width=3in]{Images/RSCL.png}		
+%\includegraphics[width=5.7cm]{}\hfil\includegraphics[width=3.81cm]{}\\
+\vspace*{1.cm}
+
+%{\bfseries\fontsize{19}{19}\selectfont{a }}\\
+\vspace*{1.1cm}
+\end{center}
+
+%TEAM MEMBER LIST
+\begin{center}
+{\bfseries\fontsize{12}{12}\selectfont{Team Members:}}\\
+\fontsize{12}{12}\selectfont{Elena Montalvo, Dennis Lee, Rafael Hernandez, Carlos Zarco}\\
+\vspace*{0.3cm}
+{\bfseries\fontsize{12}{12}\selectfont{Email:\{elenar,dennisl,raloa,cdzarco\}@cpp.edu}}\\
+\vspace*{0.3cm}
+
+%Aly
+{\bfseries\fontsize{12}{12}\selectfont{Faculty Advisor:}}
+\fontsize{12}{12}\selectfont{Professor: Mohamed El-Hadedy Aly}\\
+\vspace*{0.3cm}
+{\bfseries\fontsize{12}{12}\selectfont{Email:mealy@cpp.edu}}\\
+\vspace*{0.3cm}
+
+%CPP
+\fontsize{12}{12}\selectfont{California State Polytechnic University, Pomona
+Department of Electrical and Computer Engineering, College of Engineering}\\
+\vspace*{0.3cm}
+\vspace*{1.1cm}
+
+%SIGNATURE ZONE
+\vspace*{0.1cm}
+\vspace*{1.1cm}
+\end{center}
+\end{titlepage}
+
+%START OF PAPER
+
+
+%TABLE OF CONTENTS
+
+\newpage
+%\setcounter{page}{0}
+\cleardoublepage
+\input{Documentation/Table of Contents}
+
+
+% TITLE
+\newpage
+\setcounter{page}{1}
+\title{Evaluating the Performance of Hardware Using Computer Vision}
+\maketitle
+
+
+%ABSTRACT
+
+%\begin{abstract}
+%  \input{[0.5]Abstract} 
+%\end{abstract}
+
+
+
+%KEYWORDS
+
+%\begin{IEEEkeywords}
+%KEY WORDS HERE
+%\end{IEEEkeywords}
+
+
+\section{Introduction}
+\input{[1]Introduction}
+
+\section{Hardware}
+\input{[2]Hardware}
+
+\section{Result}
+\input{[3]Result}
+
+\section{conclusion}
+\input{[4]conclusion}
+
+
+%BIB
+
+\newpage
+\printbibliography
+\newpage
+
+\onecolumn
+
+\begin{appendices}
+% \section{Gantt Chart}
+% \label{app:Gantt}
+% \begin{figure*}[ht!]
+%     \centering
+%     \includegraphics[width=\textwidth]{Images/GanttChart.png}
+%     \caption*{Gantt Chart of Scheduling}
+% \end{figure*}
+
+
+
+% \section{Cost Breakdown}
+% \label{app:cost}
+% \begin{table*}[ht!]
+%     \centering
+%    % \caption*{Cost Breakdown}
+%     \begin{tabular}{lccc}
+%         \toprule
+%         Name & Cost (\$) & Amount & Total Cost (\$) \\
+%         \midrule
+%         Acrylic sheets & 32.00 & 2 & 64.00 \\
+%         Raspberry Pi & 79.81 & 1 & 79.81 \\
+%         Navio2 Flight Controller & 100.00 & 1 & 100.00 \\
+%         Propeller Motors & 24.00 & 4 & 96.00 \\
+%         Wheel Motors & 34.00 & 4 & 136 \\
+%         ESC & 100.00 & 2 & 200.00 \\
+%         4s Battery & 80.00 & 1 & 80.00 \\
+%         Telemetry Radio & 90.00 & 1 & 90.00 \\
+%         Camera & 59.99 & 4 & 239.96 \\
+%         PLA Filament & 25.00 & 2 & 50.00 \\
+%         LiDAR Sensor & 54.00 & 1 & 54.00 \\
+%         Wheels & 8.25 & 4 & 33.00 \\
+%         Propellers& 10.00 & 4 & 40.00 \\
+%         Multicamera adapter & 29.99 & 1 & 29.99 \\
+%         Jumper wires& 19.98 & 1 & 19.98 \\
+%         Infrared LEDs& 8.99 & 4 & 35.96 \\
+%         2TB SSD& 159.99 & 1 & 159.99 \\
+%         \midrule
+%         \textbf{Total} & & & \textbf{\$1,508.69} \\
+%         \bottomrule
+%     \end{tabular}
+% \end{table*}
+
+\end{appendices}
+
+
+
+\end{document}
+
+
+
+
+%FIGURE REF
+%\begin{figure}
+%    \centerline{\includegraphics[width=3.5in]{}}
+%    \caption{}
+%    \label{fig}
+%\end{figure}
+
+
+
+%Refer to the Fig.~\ref{fig:Gantt} for Gantt chart of full schedule.
+%\begin{figure*}[ht!]
+%    \centering
+%    \includegraphics[width=\textwidth]{Images/Gant_Chart.png}
+%    \caption{Gantt Chart of Scheduling}
+%    \label{fig:Gantt}
+%\end{figure*}

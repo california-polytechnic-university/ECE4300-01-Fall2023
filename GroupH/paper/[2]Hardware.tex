@@ -1,0 +1,127 @@
+\subsection{VirtualBox}
+
+VirtualBox serves as cross-platform virtualization software, enabling
+users to expand the capabilities of their existing computer by
+concurrently running multiple operating systems, including Microsoft
+Windows, Mac OS X, Linux, and Oracle Solaris. The team's utilization of
+VirtualBox aims to standardize the performance evaluation of computer
+vision algorithms by configuring identical Base Memory (set at 2000MB to
+emulate the 2 GB memory of the Raspberry Pi 4) and employing the same
+quad-core CPU. This approach aligns the technological specifications of
+the virtual machines as closely as possible with those of the Raspberry
+Pi 4.
+
+Additionally, the team ensures uniformity in the operating environment by
+employing the same Linux version, specifically Ubuntu 22.04.3, thereby
+eliminating any potential impact of the operating system version on the
+performance of the color detection algorithm. Four virtual machines,
+each configured with these specified parameters, execute the color
+detection algorithm to assess metrics such as execution time, CPU usage,
+and memory utilization.
+
+It\textquotesingle s noteworthy that each computer, including its
+virtual machine, comprises distinct internal components. The primary
+objective is to discern whether these variations in internal components
+influence algorithm performance and, if so, identify the root causes of
+any observed data discrepancies. The color detection algorithm is
+executed on each machine to analyze color in real-time through a webcam
+feed, identify colors within images, and ascertain color in video
+content.
+
+\subsection{Microcomputers}
+
+The team's objective is to thoroughly examine three distinct Reduced Instruction Set Computers (RISC), renowned for their implementation of a streamlined and optimized set of instructions, differing from the specialized instruction sets present in other architectures. Our analysis centers on the Raspberry Pi 4 Model B, the Raspberry Pi 3, and the Le Potato, all of which operate on 64-bit ARM microcomputer architectures. The Raspberry Pi 4 Model B is equipped with the Broadcom BCM2711 System-on-Chip (SoC), featuring a quad-core Cortex-A72 CPU clocked at 1.5 GHz. Throughout our investigation, the Raspberry Pi 4 is configured with 2GB of RAM, enhancing its computational capabilities. Concurrently, the Raspberry Pi 3 and the Le Potato adopt quad-core ARM Cortex-A53 architectures. The Raspberry Pi 3, powered by the Broadcom BCM2837, is furnished with 1GB of RAM. In contrast, the Le Potato by Libre Computer showcases a Mali-450 MP3 GPU in tandem with 2GB of RAM, contributing to its computational prowess and graphics processing capabilities.
+
+Extra things needed to set up a desktop with the
+
+Raspberry Pi 4:
+
+\begin{itemize}
+\item
+  Micro SD card
+\item
+  Mouse
+\item
+  Keyboard
+\item
+  Desktop
+\item
+  HDMI to mini HDMI
+\item
+  Type C Power Cable
+\end{itemize}
+
+Raspberry Pi 3:
+
+\begin{itemize}
+\item
+  Micro SD card
+\item
+  Mouse
+\item
+  Keyboard
+\item
+  Desktop
+\item
+  HDMI to HDMI
+\item
+  Type micro USB power Cable
+\end{itemize}
+
+Le Potato:
+
+\begin{itemize}
+\item
+  Micro SD card
+\item
+  Mouse
+\item
+  Keyboard
+\item
+  Desktop
+\item
+  HDMI to HDMI
+\item
+  Type micro USB power Cable
+\end{itemize}
+
+\subsection{SD cards}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Images/sd-tbl.png}
+    % \caption{Enter Caption}
+    % \label{fig:enter-label}
+\end{figure}
+
+SD cards play a crucial role as the primary storage medium for
+microcomputers like the Raspberry Pi, encompassing the storage of
+essential components such as the operating system, software
+applications, and user data. Unlike traditional computers, the Raspberry
+Pi lacks built-in storage, making an SD card not just a storage solution
+but a fundamental component necessary for the proper functionality of
+the system.
+
+During the startup process of the Raspberry Pi, the device boots
+directly from the SD card. When the user powers up the Raspberry Pi, the
+system retrieves essential files from the SD card to initiate the boot
+sequence. This includes the bootloader, a small piece of software
+responsible for launching the operating system. Both the bootloader and
+the operating system itself are typically stored on the SD card.
+
+The choice of an SD card for the Raspberry Pi is a thoughtful process.
+It is essential to choose a reliable and appropriately sized SD card to
+ensure the smooth and efficient operation of the system. Take, for
+example, the SanDisk 32 GB ImageMate microSDXC UHS-1 Memory Card, with
+specifications such as Class 10 (C10) for minimum data transfer speeds,
+UHS Speed Class 1 (U1) for higher data rates, and compatibility for Full
+HD video recording. This microSD card boasts transfer speeds of up to
+120MB/s, making it well-suited for applications where rapid data
+throughput is crucial.
+
+The read and write speeds of the SD card directly impact the performance
+of the Raspberry Pi, especially in scenarios where data access speed is
+a critical factor. Therefore, the careful selection of an SD card with
+favorable read and write speeds is an important consideration for users
+aiming to achieve optimal performance in their Raspberry Pi-based
+projects.
